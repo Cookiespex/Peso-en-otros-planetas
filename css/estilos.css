@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: sans-serif;
+    font-family: cursive;
+}
+
+body{
+    background-color: black;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+h4,
+label,
+p {
+    color: #fff;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+}
+
+ul li {
+    padding: 0 0 2rem 0;
+}
+
+ul,
+#formu {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+#peso {
+    width: 15rem;
+    height: 1.7rem;
+    color: #fff;
+    background: transparent;
+    border: 1px solid white;
+    margin-right: 5rem;
+    padding: 0 .8rem;
+}
+
+#planeta {
+    height: 2rem;
+    color: #fff;
+    background: transparent;
+}
+
+#planeta option {
+    color: black;
+}
+
+#carita {
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    font-size: 9px;
+    color: #fff;
+}
+
+.row{
+    margin: 0 0 0 0;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description"
+		content="cuanto peso en mercurio, cuanto pero en venus, cuanto peso en la tierra, cuanto peso en marte, cuanto pero en jupiter, cuanto peso en saturno, cuanto peso en urano, cuanto peso en neptuno, cuanto pero en ceres, cuanto peso en pluton" />
+	<meta name="author" content="Cookies Pex" />
+	<title>¿Cuanto pesas en otros planetas?</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+	<h1>¿Cuanto pesas en otros planetas?</h1>
+
+	<article id="formu">
+		<label for="peso">Escribe tu peso</label>
+		<input id="peso" type="text" onchange="pesoIntroduciodo(this);" placeholder="Ej: 57.8">
+	</article>
+
+	<main>
+		<ul class="row">
+			<li class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+				<h4>Mercurio</h4>
+				<span><img src="img/mercurio.png" alt="mercurio"></span>
+				<p>Tu peso en Mercurio: <strong id="mercurio"></strong>Kg</p>
+			</li>
+			<li class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+				<h4>Venus</h4>
+				<span><img src="img/venus.png" alt="venus"></span>
+				<p>Tu peso en Venus: <strong id="venus"></strong>Kg</p>
+			</li>
+			<li class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+				<h4>Tierra</h4>
+				<span><img src="img/tierra.png" alt="tierra"></span>
+				<p>Tu peso en Tierra: <strong id="tierra"></strong>Kg</p>
+			</li>
+			<li class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+				<h4>Marte</h4>
+				<span><img src="img/marte.png" alt="marte"></span>
+				<p>Tu peso en Marte: <strong id="marte"></strong>Kg</p>
+			</li>
+			<li class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+				<h4>Jupiter</h4>
+				<span><img src="img/jupiter.png" alt="jupiter"></span>
+				<p>Tu peso en Jupiter: <strong id="jupiter"></strong>Kg</p>
+			</li>
+			<li class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+				<h4>Saturno</h4>
+				<span><img src="img/saturno.png" alt="saturno"></span>
+				<p>Tu peso en Saturno: <strong id="saturno"></strong>Kg</p>
+			</li>
+			<li class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+				<h4>Urano</h4>
+				<span><img src="img/urano.png" alt="urano"></span>
+				<p>Tu peso en Urano: <strong id="urano"></strong>Kg</p>
+			</li>
+			<li class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+				<h4>Neptuno</h4>
+				<span><img src="img/neptuno.png" alt="neptuno"></span>
+				<p>Tu peso en Neptuno: <strong id="neptuno"></strong>Kg</p>
+			</li>
+			<li class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+				<h4>Ceres (Planeta enano)</h4>
+				<span><img src="img/ceres.png" alt="ceres"></span>
+				<p>Tu peso en Ceres: <strong id="ceres"></strong>Kg</p>
+			</li>
+			<li class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+				<h4>Pluton (Planeta enano)</h4>
+				<span><img src="img/pluton.png" alt="pluton"></span>
+				<p>Tu peso en Pluton: <strong id="pluton"></strong>Kg</p>
+			</li>
+		</ul>
+	</main>
+
+	<a id="carita" href="https://www.youtube.com/watch?v=b3GyAtcoogc" target="_blank">:V</a>
+
+	<script src="js/app.js"></script>
+	<script>
+		window.addEventListener("load", function () {
+			document.querySelector("#carita").addEventListener('click', function () {
+				console.log('hola :v');
+			}, false)
+		}, false)
+	</script>
+</body>
+
+</html>
